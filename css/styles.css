@@ -13,7 +13,6 @@
 }
 
 body{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,19 +33,7 @@ img{
     max-width: 100%;
 }
 
-.bg-image-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.bg-image-container img{
-    width: 100vw;
-    object-fit: cover;
-}
-
 .summary{
-    position: relative;
     max-width: 450px;
     border-radius: 1.25em;
     text-align: center;
@@ -138,7 +125,6 @@ img{
 }
 
 @media (min-width: 475px) {
-
     body{
         background-image: url("../images/pattern-background-desktop.svg");
     }
